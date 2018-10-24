@@ -4,5 +4,6 @@
   "test.py::test_structure",
   "test.py::test_length",
   "test.py::test_create_grid",
-  "test.py::test_create_largegrid"
+  "test.py::test_create_largergrid",
+  "test.py::test_Investment_allocation_use"
 ]
