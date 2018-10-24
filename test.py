@@ -59,9 +59,9 @@ def test_Investment_allocation_use():
     results = gg.create_grid()
 
     #tidy up the numbers to turn back into percentages
-    results = minimum_allocation + grid_size*results
-    print(results)
-
+    results = (minimum_allocation + grid_size*results).round(4) #Note rounding is to deal with floating point issues
+    print(results.round(4))
+    results.to_csv('./asset_class_allocations.csv', sep='\t', encoding='utf-8')
 
 
 

@@ -42,7 +42,7 @@ class Grid_Generator(object):
         return gg_array
 
     def create_grid(self) -> pd.DataFrame():
-        #reorder the asset classes by largest to smallest allocations:
+        #TODO reorder the asset classes by largest to smallest allocations
 
         gg_stack = []
         results_list = []
@@ -56,3 +56,4 @@ class Grid_Generator(object):
                 gg_stack.extend(gg.take_step())
 
         return pd.DataFrame(results_list)
+

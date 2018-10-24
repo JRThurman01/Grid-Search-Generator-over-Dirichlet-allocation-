@@ -2,9 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="726b34fa-1b23-41e1-8e96-3f6227dee27b" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/vcs.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.pytest_cache/v/cache/nodeids" afterPath="$PROJECT_DIR$/.pytest_cache/v/cache/nodeids" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Bucket_Grid_Generator.py" afterPath="$PROJECT_DIR$/Bucket_Grid_Generator.py" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/test.py" afterPath="$PROJECT_DIR$/test.py" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -19,8 +18,8 @@
       <file leaf-file-name="test.py" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/test.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="505">
-              <caret line="63" column="0" lean-forward="true" selection-start-line="63" selection-start-column="0" selection-end-line="63" selection-end-column="0" />
+            <state relative-caret-position="491">
+              <caret line="62" column="27" lean-forward="false" selection-start-line="62" selection-start-column="27" selection-end-line="62" selection-end-column="27" />
               <folding>
                 <element signature="e#0#18#0" expanded="true" />
               </folding>
@@ -31,8 +30,8 @@
       <file leaf-file-name="Bucket_Grid_Generator.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Bucket_Grid_Generator.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="14">
-              <caret line="2" column="0" lean-forward="false" selection-start-line="2" selection-start-column="0" selection-end-line="2" selection-end-column="0" />
+            <state relative-caret-position="323">
+              <caret line="44" column="74" lean-forward="true" selection-start-line="44" selection-start-column="74" selection-end-line="44" selection-end-column="74" />
               <folding>
                 <element signature="e#0#18#0" expanded="true" />
               </folding>
@@ -112,7 +111,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python tests.py.test for test.test_practical_uses">
+  <component name="RunManager" selected="Python tests.py.test in test.py">
     <configuration name="py.test for test.test_creategenerator" type="tests" factoryName="py.test" temporary="true" nameIsGenerated="true">
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -197,8 +196,8 @@
     </list>
     <recent_temporary>
       <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="Python tests.py.test for test.test_practical_uses" />
-        <item index="1" class="java.lang.String" itemvalue="Python tests.py.test in test.py" />
+        <item index="0" class="java.lang.String" itemvalue="Python tests.py.test in test.py" />
+        <item index="1" class="java.lang.String" itemvalue="Python tests.py.test for test.test_practical_uses" />
         <item index="2" class="java.lang.String" itemvalue="Python tests.py.test for test.test_creategenerator" />
         <item index="3" class="java.lang.String" itemvalue="Python tests.py.test for test.test_first_steps" />
         <item index="4" class="java.lang.String" itemvalue="Python tests.py.test for test.test_test" />
@@ -219,9 +218,6 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="py_test_for_test_test_practical_uses - 2018.10.24 at 14h 06m 14s.xml">
-      <configuration name="py.test for test.test_practical_uses" configurationId="tests" />
-    </history-entry>
     <history-entry file="py_test_for_test_test_practical_uses - 2018.10.24 at 14h 06m 24s.xml">
       <configuration name="py.test for test.test_practical_uses" configurationId="tests" />
     </history-entry>
@@ -246,7 +242,10 @@
     <history-entry file="py_test_for_test_test_practical_uses - 2018.10.24 at 14h 17m 17s.xml">
       <configuration name="py.test for test.test_practical_uses" configurationId="tests" />
     </history-entry>
-    <history-entry file="py_test_in_test_py - 2018.10.24 at 13h 56m 38s.xml">
+    <history-entry file="py_test_in_test_py - 2018.10.24 at 14h 25m 06s.xml">
+      <configuration name="py.test in test.py" configurationId="tests" />
+    </history-entry>
+    <history-entry file="py_test_in_test_py - 2018.10.24 at 14h 30m 06s.xml">
       <configuration name="py.test in test.py" configurationId="tests" />
     </history-entry>
   </component>
@@ -257,7 +256,7 @@
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.24959914" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
-      <window_info id="Run" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32929292" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32929292" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Python Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32929292" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
@@ -324,18 +323,26 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/Bucket_Grid_Generator.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="14">
-          <caret line="2" column="0" lean-forward="false" selection-start-line="2" selection-start-column="0" selection-end-line="2" selection-end-column="0" />
+        <state relative-caret-position="323">
+          <caret line="44" column="74" lean-forward="true" selection-start-line="44" selection-start-column="74" selection-end-line="44" selection-end-column="74" />
           <folding>
             <element signature="e#0#18#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/asset_class_allocations.csv">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-6482">
+          <caret line="863" column="29" lean-forward="false" selection-start-line="863" selection-start-column="29" selection-end-line="863" selection-end-column="29" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/test.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="505">
-          <caret line="63" column="0" lean-forward="true" selection-start-line="63" selection-start-column="0" selection-end-line="63" selection-end-column="0" />
+        <state relative-caret-position="491">
+          <caret line="62" column="27" lean-forward="false" selection-start-line="62" selection-start-column="27" selection-end-line="62" selection-end-column="27" />
           <folding>
             <element signature="e#0#18#0" expanded="true" />
           </folding>
