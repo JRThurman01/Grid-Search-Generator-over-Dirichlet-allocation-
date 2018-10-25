@@ -56,8 +56,8 @@ Some tips are included below:
 
 ## Authors
 
-**John Thurman** - *Initial work* 
+**John Thurman** 
 
 ## License
 
-This project is licensed under the MIT License - see the [LICENSE.md](LICENSE.md) file for details
+This project is licensed under the MIT License - see the [LICENSE.md](https://github.com/JRThurman01/AllocationGridGenerator/blob/master/LICENSE) file for details
