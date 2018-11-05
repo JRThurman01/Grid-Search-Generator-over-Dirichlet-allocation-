@@ -1,6 +1,6 @@
 # AllocationGridGenerator
 
-This tool makes it simple to generate a list of parameter settings to complete a grid search of parameters when the sum of all parameters is fixed.
+This tool makes it simple to generate a list of parameter settings to complete a grid search of parameters when the sum of all parameters is fixed, AKA - the Multi Armed Bandit problem.
 
 This is of use in some areas of optimization where the reward function, (loss function, objective function...etc..) may be time consuming to calculate, is not globally convex or where the edges of the parameter ranges cause issues with other algorithms
 
@@ -48,6 +48,9 @@ Note in this second example some consideration of floating arithmetic needs to b
 
 #### Notes for use:
 High dimensional combinatronics can quickly lead to extremely large sets of combinations. No safeguards have been in put in place within this code to stop possible memory overflow or an unlimited runtime. 
+
+**Exploration vs Exploitation** 
+I would advocate to treat this tool initially as a tool for Exploration and Exploit the best results from this Exploration to  to limit the combination sizes.
 
 Some tips are included below:
 * Try to get a feeling for how long your problem will take to run by 'building up' the dimensions/ granulatity of your grid.
