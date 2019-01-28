@@ -1,8 +1,8 @@
 # AllocationGridGenerator
 
-This tool makes it simple to generate a list of parameter settings to complete a grid search of parameters when the sum of all parameters is fixed, AKA - the Multi Armed Bandit problem.
+This tool makes it simple to generate a list of parameter settings to complete a parameter optimization using a grid search the sum of all parameters is fixed (typically fixed to 100% in aggregate). 
 
-This is of use in some areas of optimization where the reward function, (loss function, objective function...etc..) may be time consuming to calculate, is not globally convex or where the edges of the parameter ranges cause issues with other algorithms
+This is of use in some areas of optimization where the reward function, (loss function, objective function...etc..) may be time consuming to calculate, is not globally convex or where the edges of the parameter ranges cause issues with other algorithms.
 
 An examples of this is for an "Asset Liability Study" where the investment strategy is limited to be an allocation to asset classes that sums to 100%
 
